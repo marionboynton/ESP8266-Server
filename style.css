@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  border: 30px solid #fff;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1 {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 5vmax;
+  text-align: left;
+  margin: 0 0 0.5em 0;
+}
+
+h2 {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 5vmax;
+  font-weight: bold;
+  margin: 0 0 0px;
+  color: black;
+}
+
+a {
+  margin-top: 200px;
+  display: block;
+  color: #3e95cd;
+}
+
+.progressStatus {
+width: 80%;
+text-align: left;
+background-color: #ddd;
+margin-bottom: 25px;
+}
+
+.progressBar {
+width: 78%;
+height: 6vh;
+background-color: #4caf50;
+font-size: 5vmax;
+font-weight: 500;
+text-align: right;
+line-height: 6vh;
+color: black;
+}
