@@ -1,8 +1,9 @@
 # README #
 folder structure: 
-SPIFFwebserver folder: 
--SPIFFwebserver.ino 
--data folder: (script.js; style.css; Chart.js; chartjs-plugin-datalabels.js)
+
+ESP8266Server folder: 
+1. ESP8266Server.ino 
+2. data folder: (script.js; style.css; Chart.js; chartjs-plugin-datalabels.js)
 
 1. compile ESP8266Server.ino 
 2. upload ESP8266Server.ino to ESP8266 with serial port open 
