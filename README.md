@@ -1,29 +1,12 @@
 # README #
+folder structure: 
+SPIFFwebserver folder: 
+-SPIFFwebserver.ino 
+-data folder: (script.js; style.css; Chart.js; chartjs-plugin-datalabels.js)
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+1. compile ESP8266Server.ino 
+2. upload ESP8266Server.ino to ESP8266 with serial port open 
+3. close serial port and upload sketch data folder 
+4. once spiffs files have completed upload open serial port and upload ESP8266Server.ino 
+5. open wifi and connect to ESP8266 
+6. open web browser and go to http://192.168.4.1
